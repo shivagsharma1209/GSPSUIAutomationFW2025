@@ -11,7 +11,7 @@ const search = [
 
 for (const product of search) {
 
-    test(`verify product Header ${product.productname}` , {tag:['@product','@sanity', '@regression']} , async ({  homePage }) => {        
+    test(`verify product Header ${product.productname}` , {tag:['@product','@smoke', '@regression']} , async ({  homePage }) => {        
         const resultsPage: ResultsPage = await homePage.doSearch(product.searchkey);
         
         const productInfoPage: ProductInfoPage = await resultsPage.selectProduct(product.productname);
