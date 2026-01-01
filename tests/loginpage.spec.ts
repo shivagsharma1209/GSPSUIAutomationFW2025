@@ -1,6 +1,7 @@
 import { LoginPage } from '../pages/LoginPage';
 import { test, expect } from '../fixtures/baseFixtures';
-
+  
+{tag:['@product','@smoke', '@regression']}
 
 test('verify valid login @login',
     {
@@ -9,8 +10,10 @@ test('verify valid login @login',
             { type: 'feature', description: 'Login Page Feature' },
             { type: 'story', description: 'US 50 - user can login to app' },
             { type: 'severity', description: 'Blocker' },
-            { type: 'owner', description: 'Naveen Khunteta'}
+            { type: 'owner', description: 'Naveen Khunteta'},
+          
         ]
+        
     }
     , async ({ homePage }) => {
         await expect(homePage.page).toHaveTitle('My Account');
