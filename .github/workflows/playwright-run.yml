@@ -146,6 +146,6 @@ jobs:
       - name: Report URLs
         run: |
           echo "Reports Published!"
-          echo "Playwright Built-in: https://github.com/shivagsharma1209/GSPSUIAutomationFW2025/playwright-report/index.html"
-          echo "Playwright HTML Reporter: https://github.com/shivagsharma1209/GSPSUIAutomationFW2025/playwright-html-report/index.html"
-          echo "Allure: https://https://github.com/shivagsharma1209/GSPSUIAutomationFW2025/allure-report/index.html"
+          echo "Playwright Built-in: https://shivagsharma1209.github.io/GSPSUIAutomationFW2025//playwright-report/index.html"
+          echo "Playwright HTML Reporter: https://shivagsharma1209.github.io/GSPSUIAutomationFW2025//playwright-html-report/index.html"
+          echo "Allure: https://shivagsharma1209.github.io/GSPSUIAutomationFW2025//allure-report/index.html"
