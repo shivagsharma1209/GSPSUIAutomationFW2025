@@ -14,7 +14,7 @@ const searchData = [
 
 
 for (const product of searchData) {
-    test(`@search @sanity verify product search ${product.searchkey}`, async ({ homePage }) => {
+    test(`@search @smoke verify product search ${product.searchkey}`, async ({ homePage }) => {
 
     const resultsPage: ResultsPage = await homePage.doSearch(product.searchkey);
     expect (await resultsPage.getSearchResultsCount()).toBe(product.resultscount);

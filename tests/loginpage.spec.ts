@@ -1,7 +1,7 @@
 import { LoginPage } from '../pages/LoginPage';
 import { test, expect } from '../fixtures/baseFixtures';
   
-{tag:['@product','@smoke', '@regression']}
+
 
 test('verify valid login @login',
     {
